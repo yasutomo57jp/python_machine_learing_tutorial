@@ -55,9 +55,6 @@ class MNISTDataModule(pl.LightningDataModule):
         self.batch_size = batch_size
         self.transform = transforms.ToTensor()
 
-    def prepare_data(self):
-        MNIST(self.data_dir, train=True, download=True)
-
     def setup(self, stage=None):
         dataset = MNIST(self.data_dir, train=True, transform=self.transform)
         self.mnist_train, self.mnist_val = random_split(dataset, [55000, 5000])
