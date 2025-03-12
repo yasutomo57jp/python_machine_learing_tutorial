@@ -1,0 +1,10 @@
+defaults:
+  - network: baseline2
+
+data_dir: ${hydra:runtime.cwd}
+
+trainer:
+  max_epoch: 5
+  batch_size: 32
+  project: mnist_project
+  random_seed: 0

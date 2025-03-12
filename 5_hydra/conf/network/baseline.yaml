@@ -1,0 +1,6 @@
+name: MNISTModel
+save_path: ${hydra:runtime.cwd}/mnist_model.pth
+
+fc1:
+  in_features: 784
+  out_features: 128

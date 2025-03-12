@@ -1,0 +1,2 @@
+name: MNISTModel2
+save_path: ${hydra:runtime.cwd}/mnist_model2.pth
