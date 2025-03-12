@@ -4,6 +4,9 @@
 
 WandBは、機械学習の実験管理を行うためのツールです。実験の実行結果を記録し、可視化することができます。また、実験の実行状況をリアルタイムで確認することもできます。
 
+以下のページでアカウントを作成し、APIキーを取得してください。
+https://wandb.ai/site/ja/
+
 ## pytorch lightningとの連携
 
 pl.TrainerのコールバックとしてWandbLoggerを指定することで、pytorch lightningとWandBを連携することができます。
