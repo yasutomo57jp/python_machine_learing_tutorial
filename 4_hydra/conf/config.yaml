@@ -1,0 +1,8 @@
+model:
+  name: MNISTModel2
+  save_path: mnist_model2.pth
+
+trainer:
+  max_epoch: 5
+  project: mnist_project
+  random_seed: 0
