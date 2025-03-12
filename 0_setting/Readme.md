@@ -14,8 +14,8 @@ source ./venv/bin/activate
 ~/.ssh/configに以下を追加する。
 
 ```config
-Host vision01
-  HostName vision01.ad180.riken.go.jp
+Host 自分のPCの名前
+  HostName 自分のPCのFQDN や IPアドレス や ホスト名など
 ```
 
 
