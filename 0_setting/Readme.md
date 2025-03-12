@@ -21,7 +21,7 @@ Host 自分のPCの名前
 
 # 開発環境
 
-VSCodeを使って開発する。
+## VSCodeの場合
 
 プラグイン
 - Remote - SSH
@@ -30,6 +30,13 @@ VSCodeを使って開発する。
 - isort
 - GitLens
 
+## neovimの場合
 
+lazy.nvim を使ってプラグインを設定する．
+
+- lspconfig
+- CopilotChat
+- lazygit
+- none_ls （blackやisortを設定）
 
 
