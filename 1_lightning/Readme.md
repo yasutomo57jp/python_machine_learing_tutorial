@@ -7,7 +7,7 @@ MNISTでのpytorch lightningを使った学習コードのサンプルです．
 
 LightningModuleを継承したクラスを定義し，そのクラスを使って学習を行います．
 
-https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train.py#L10C1-L49
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train.py#L10-L49
 
 学習に使うデータセットを定義します．．
 
@@ -15,14 +15,14 @@ https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387e
 
 プログラムのメイン部分です．
 
-https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train.py#L69C1-L87
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train.py#L69-L87
 
 ## train2.py
 
 
 学習の仕方と，モデルの定義を分離した例です．
 
-https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train2.py#L10C1-L22
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/df85028387ee802fdbab2269e29b02e34ec09e2d/1_lightning/train2.py#L10-L22
 
 mainでは，モデルをインスタンス化したうえでlightning moduleへ渡しています．
 
