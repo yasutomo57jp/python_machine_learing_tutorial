@@ -1,14 +1,16 @@
 # コードのモジュール化
 
-ネットワークをモジュールとして切り出して，それを使って学習するコードの例．
+## ネットワークのモジュール化
 
 まず，ネットワークを別のファイルに切り出します．  
 このとき，必要なモジュールをインポートしておきます．
 
 https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/eed43de6e46e04dbd204193de8357e13935aef47/3_module/networks/baseline.py#L1-L17
 
+これを，networksディレクトリに保存します．
 
-networks/__init__.py でインポートしておくと，
+
+```networks/__init__.py``` でインポートしておくと，
 
 https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/eed43de6e46e04dbd204193de8357e13935aef47/3_module/networks/__init__.py#L1-L2
 
@@ -17,5 +19,20 @@ https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/eed43de6e46
 https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/eed43de6e46e04dbd204193de8357e13935aef47/3_module/train.py#L6
 
 
+## datasetのモジュール化
+また，同様にデータセットを別のファイルに切り出します．
 
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/dataset.py#L1-L30
 
+## Testのコード
+モジュール化したので，テスト時もそれを読み込み，学習済み重みを読み込んでテストします．
+
+データセットモジュールにテスト用のDataLoaderを追加しています．
+
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/dataset.py#L21
+
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/dataset.py#L29-L30
+
+テスト時は，```pl.Trainer```のtestを呼びます．
+
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/test.py#L29-L31
