@@ -33,6 +33,10 @@ https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07
 
 https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/dataset.py#L29-L30
 
+テストしたいモデルの読み込みと学習済みモデルの読み込みます．
+
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/2578f27a7555a0675fd047c1419c227d91c4e400/3_module/test.py#L17-L19
+
 テスト時は，```pl.Trainer```のtestを呼びます．
 
 https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/12cdf242c07374cd109fb8492dc19063b02447d3/3_module/test.py#L29-L31
