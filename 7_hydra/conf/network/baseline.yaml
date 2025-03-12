@@ -1,0 +1,6 @@
+name: baseline
+
+fc1:
+  in_features: 
+  out_features: 128
+  bias: true

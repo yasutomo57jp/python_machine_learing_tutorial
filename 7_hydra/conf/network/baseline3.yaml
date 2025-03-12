@@ -1,0 +1,6 @@
+name: baseline3
+
+fc1:
+  ch: 64
+fc2:
+  ch: 128
