@@ -8,10 +8,5 @@ WandBは、機械学習の実験管理を行うためのツールです。実験
 
 pl.TrainerのコールバックとしてWandbLoggerを指定することで、pytorch lightningとWandBを連携することができます。
 
-https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/9182bad5885ef18c9c57dfd9eb60bcf3ebb52aa7/2_wandb/train.py#L105
-```python
-    trainer = pl.Trainer(
-        max_epochs=100, logger=pl.loggers.WandbLogger(project="mnist_project")
-    )
-```
+https://github.com/yasutomo57jp/python_machine_learing_tutorial/blob/9182bad5885ef18c9c57dfd9eb60bcf3ebb52aa7/2_wandb/train.py#L105:L107
 
